@@ -473,10 +473,6 @@ img {
   margin-bottom: 20px;
 }
 
-.address-foot-item {
-  display: block;
-}
-
 .address-foot-item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -524,6 +520,8 @@ img {
 }
 
 .join-us-box {
+  width: 570px;
+
   padding-top: 15px;
   margin-left: 93px;
 }
@@ -535,6 +533,7 @@ img {
 .join-us-input {
   padding: 15px 16px;
   width: 358px;
+  height: 50px;
 
   background-color: transparent;
   border: 1px solid var(--join-us-bcg-col);
@@ -555,11 +554,14 @@ img {
   color: var(--foot-alph-col);
 }
 
+.join-us-internal-box {
+  display: flex;
+  gap: 12px;
+}
+
 .join-us-button {
   min-width: 200px;
   height: 50px;
-
-  margin-left: 1px;
 }
 
 /*----- Main portfolio.html zone ----- */
@@ -784,9 +786,20 @@ img {
   letter-spacing: 0.01em;
 }
 
+.input-with-icon {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.inp-icon {
+  position: absolute;
+  top: 50%;
+  transform: translate(12px, -50%);
+}
+
 .modal-input {
   height: 40px;
-  margin-bottom: 10px;
+  width: 448px;
 
   border: 1px solid var(--modal-border-col);
   border-radius: 4px;
