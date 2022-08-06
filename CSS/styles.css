@@ -893,6 +893,10 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-fake-checkbox:hover {
+  cursor: pointer;
+}
+
 .modal-checkbox:checked + .modal-fake-checkbox {
   background-color: var(--acc-col);
 
